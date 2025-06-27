@@ -1,25 +1,18 @@
 package com.gaurav.nexshiftbackend.Service;
 
-
 import com.gaurav.nexshiftbackend.Model.*;
 import com.gaurav.nexshiftbackend.Repo.JobApplicationRepo;
 import com.gaurav.nexshiftbackend.Repo.JobRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
-import static java.lang.System.out;
-
 @Service
 public class JobService {
     @Autowired

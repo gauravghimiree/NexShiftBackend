@@ -44,6 +44,4 @@ public class ApplicationService {
         return "success";
     }
 
-
-       
     }
